@@ -1,10 +1,45 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 body {
-  margin-top: 70px;
+  margin-top: 80px;
 }
 .nav > li > a {
   position: relative;
   display: block;
   padding: 15px 20px;
+
+}
+.left-nav{
+  display: inline-block;
+}
+//navbar styling
+.navbar{
+  background: orange;
+}
+
+.navbabr-header a.navbar-brand {
+  color: #ffffff;
+  padding-top: 25px;
+  padding-bottom: 50px;
+  font-size: 150%;
+  font-weight: bold;
+}
+.navbar-header a.navbar-brand:hover {
+  color: #ff0000;
+}
+.navbar-default .navbabr-nav > .active > a {
+  background: orange;
+  color: #ffffff;
+}
+.navbar-default .navbabr-nav > .active > a:hover {
+  background: orange;
+  color: #ff0000;
+}
+.navbar-default .navbabr-nav > li > a {
+  color: #ffffff;
+  font-size: 130%;
+}
+
+.navbar-default .navbabr-nav > li > a:hover {
+  color: #ff0000;
 }
