@@ -1,0 +1,10 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+body {
+  margin-top: 70px;
+}
+.nav > li > a {
+  position: relative;
+  display: block;
+  padding: 15px 20px;
+}
